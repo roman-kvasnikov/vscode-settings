@@ -1,13 +1,13 @@
 {
 	"window.commandCenter": true,
-	"window.titleBarStyle": "custom",
-	"window.customTitleBarVisibility": "never",
+	// "window.titleBarStyle": "native",
+	"window.customTitleBarVisibility": "auto",
 	"window.density.editorTabHeight": "compact", // Tabs вверху чтобы были узкие
 
 	"workbench.colorTheme": "GitHub Dark Default",
 	"workbench.activityBar.location": "hidden",
-	"workbench.statusBar.visible": true,
 	"workbench.layoutControl.enabled": false,
+	"workbench.statusBar.visible": true,
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.list.smoothScrolling": true,
@@ -21,8 +21,8 @@
 	"workbench.startupEditor": "none", // Отключает отображение редактора при запуске
 	"workbench.tips.enabled": false, // Отключает подсказки на стартовой странице
 	"breadcrumbs.enabled": false, // Отключает "хлебные крошки" в верхней части редактора
-	"editor.matchBrackets": "never", // Отключает подсветку парных скобок
-	"editor.colorDecorators": false, // Отключает предпросмотр цвета в CSS
+	"editor.matchBrackets": "always", // Отключает подсветку парных скобок
+	"editor.colorDecorators": true, // Отключает предпросмотр цвета в CSS
 	// "editor.renderLineHighlight": "none", // Отключает подсветку текущей строки
 	// "editor.occurrencesHighlight": "off", // Отключает выделение всех вхождений слова при фокусе
 	// "problems.decorations.enabled": false, // Отключает подсветку файлов с ошибками в эксплорере
@@ -36,6 +36,7 @@
 
 	// Основной шрифт
 	"editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'monospace', monospace",
+	// "editor.fontFamily": "'Cascadia Code', 'JetBrains Mono', 'monospace', monospace",
 	"editor.fontSize": 16,
 	"editor.lineHeight": 28.5,
 	"editor.fontWeight": "500",
@@ -111,9 +112,10 @@
 	// Blade
 	"blade.format.enable": true,
 	"bladeFormatter.format.useTabs": true,
-	"bladeFormatter.format.wrapLineLength": 9999999999,
 	"bladeFormatter.format.noSingleQuote": false,
-	"bladeFormatter.format.wrapAttributes": "preserve",
+	"bladeFormatter.format.noMultipleEmptyLines": true,
+	"bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+	"bladeFormatter.format.wrapLineLength": 9999999999,
 	"bladeFormatter.format.wrapAttributesMinAttrs": 4,
 	"bladeFormatter.format.indentSize": 1,
 	"bladeFormatter.format.indentInnerHtml": true,
@@ -188,6 +190,14 @@
 		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+
+	"[nix]": {
+		"editor.defaultFormatter": "kamadorueda.alejandra",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": false
+	},
+	"alejandra.program": "alejandra",
 
 	"laravel-pint.enable": true,
 	"laravel-pint.enableDebugLogs": true,
