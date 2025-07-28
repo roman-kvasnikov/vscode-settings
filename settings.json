@@ -191,14 +191,6 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 
-	"[nix]": {
-		"editor.defaultFormatter": "kamadorueda.alejandra",
-		"editor.formatOnPaste": true,
-		"editor.formatOnSave": true,
-		"editor.formatOnType": false
-	},
-	"alejandra.program": "alejandra",
-
 	"laravel-pint.enable": true,
 	"laravel-pint.enableDebugLogs": true,
 	"laravel-pint.executablePath": "./vendor/bin/pint",
