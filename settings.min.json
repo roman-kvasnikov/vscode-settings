@@ -179,10 +179,7 @@
 	"namespaceResolver.sortOnSave": true,
 	"namespaceResolver.showMessageOnStatusBar": true,
 
-	"[nix]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "jnoortheen.nix-ide"
-	},
+	"nix.formatterPath": "nixfmt",
 
 	"emmet.includeLanguages": {
 		"blade": "html",
