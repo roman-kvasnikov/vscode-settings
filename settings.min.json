@@ -88,7 +88,6 @@
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
 	"prettier.arrowParens": "avoid",
-	"prettier.disableLanguages": ["nix"],
 
 	"html.format.enable": true,
 	"html.format.wrapLineLength": 0,
