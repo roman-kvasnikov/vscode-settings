@@ -2,11 +2,15 @@
 
 Этот файл содержит настройки для VS Code, оптимизированные для веб-разработки (Laravel, JavaScript, TypeScript, HTML/CSS и др.).
 
-## Основные настройки интерфейса
+## Основные настройки окна
 
 - **`window.commandCenter`**: `true` — включает центр команд в заголовке окна
 - **`window.customTitleBarVisibility`**: `"auto"` — автоматическое отображение кастомной панели заголовка
 - **`window.density.editorTabHeight`**: `"compact"` — делает вкладки редактора более узкими
+- **`window.newWindowDimensions`**: `"inherit"` — размер открытия нового окна
+
+## Основные настройки интерфейса
+
 - **`workbench.colorTheme`**: `"GitHub Dark Default"` — тёмная тема интерфейса
 - **`workbench.activityBar.location`**: `"hidden"` — скрывает боковую панель активности
 - **`workbench.statusBar.visible`**: `true` — показывает статусбар внизу
