@@ -88,6 +88,7 @@
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
 	"prettier.arrowParens": "avoid",
+	"prettier.disableLanguages": ["nix"],
 
 	"html.format.enable": true,
 	"html.format.wrapLineLength": 0,
@@ -179,7 +180,13 @@
 	"namespaceResolver.sortOnSave": true,
 	"namespaceResolver.showMessageOnStatusBar": true,
 
+	"nix.enableLanguageServer": true,
+	"nix.serverPath": "nil",
 	"nix.formatterPath": "nixfmt",
+	"[nix]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "jnoortheen.nix-ide"
+	},
 
 	"emmet.includeLanguages": {
 		"blade": "html",
