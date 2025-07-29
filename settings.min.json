@@ -180,13 +180,13 @@
 	"namespaceResolver.sortOnSave": true,
 	"namespaceResolver.showMessageOnStatusBar": true,
 
-	"nix.enableLanguageServer": true,
-	"nix.serverPath": "nil",
-	"nix.formatterPath": "nixfmt",
 	"[nix]": {
+		"editor.defaultFormatter": "kamadorueda.alejandra",
+		"editor.formatOnPaste": true,
 		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "jnoortheen.nix-ide"
+		"editor.formatOnType": false
 	},
+	"alejandra.program": "alejandra",
 
 	"emmet.includeLanguages": {
 		"blade": "html",
