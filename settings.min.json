@@ -179,6 +179,8 @@
 	"namespaceResolver.sortOnSave": true,
 	"namespaceResolver.showMessageOnStatusBar": true,
 
+	"nix.formatterPath": "nixfmt",
+
 	"emmet.includeLanguages": {
 		"blade": "html",
 		"vue-html": "html",
