@@ -181,10 +181,8 @@
 	"namespaceResolver.showMessageOnStatusBar": true,
 
 	"[nix]": {
-		"editor.defaultFormatter": "kamadorueda.alejandra",
-		"editor.formatOnPaste": true,
 		"editor.formatOnSave": true,
-		"editor.formatOnType": false
+		"editor.defaultFormatter": "kamadorueda.alejandra"
 	},
 	"alejandra.program": "alejandra",
 
