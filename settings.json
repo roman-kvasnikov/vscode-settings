@@ -166,6 +166,11 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 
+	"[bash]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+
 	"laravel-pint.enable": true,
 	"laravel-pint.enableDebugLogs": true,
 	"laravel-pint.executablePath": "./vendor/bin/pint",
