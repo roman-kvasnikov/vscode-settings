@@ -166,7 +166,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 
-	"[bash]": {
+	"[shellscript]": {
 		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "foxundermoon.shell-format"
 	},
